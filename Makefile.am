@@ -50,7 +50,10 @@ liblogichelpers_la_include_HEADERS = \
 # list all source code files for the liblogichelpers.la library
 # don't need to list the generated .cc files from bison and flex
 # since automake already knows about them, and adds them automatically
-liblogichelpers_la_SOURCES = src/assembly.cpp
+liblogichelpers_la_SOURCES = \
+	src/assembly.cpp \
+	src/preamble.h 
+
 
 # tell automake that the installation directory for public header files of the
 # liblogichelpers.la library should be a subfolder in the default ${includedir}

@@ -1,0 +1,8 @@
+#ifndef LOGIC_LOGIC_ICONSTENUMERATOR_H_
+#define LOGIC_LOGIC_ICONSTENUMERATOR_H_
+
+#define LOGIC_ENUM_CONST
+#include <logic/EnumeratorSkeleton.hpp>
+#undef LOGIC_ENUM_CONST
+
+#endif // LOGIC_LOGIC_ICONSTENUMERATOR_H_

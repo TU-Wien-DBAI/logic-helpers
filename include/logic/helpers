@@ -1,5 +1,6 @@
 #include <logic/global>
-#include <logic/Id.hpp>
+#include <logic/Benchmark.hpp>
 #include <logic/ConstEnumerator.hpp>
 #include <logic/Enumerator.hpp>
 #include <logic/EnumeratorSkeleton.hpp>
+#include <logic/Id.hpp>

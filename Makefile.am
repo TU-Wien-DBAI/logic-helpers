@@ -42,6 +42,7 @@ liblogichelpers_la_include_HEADERS = \
 	include/logic/helpers \
 	include/logic/global \
 	\
+	include/logic/Benchmark.hpp \
 	include/logic/ConstEnumerator.hpp \
 	include/logic/Enumerator.hpp \
 	include/logic/EnumeratorSkeleton.hpp \
@@ -52,7 +53,9 @@ liblogichelpers_la_include_HEADERS = \
 # since automake already knows about them, and adds them automatically
 liblogichelpers_la_SOURCES = \
 	src/assembly.cpp \
-	src/preamble.h 
+	src/preamble.h \
+	\
+	src/Benchmark.cpp
 
 
 # tell automake that the installation directory for public header files of the

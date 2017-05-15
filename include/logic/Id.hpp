@@ -11,6 +11,9 @@ namespace logic
 	typedef std::uint_least32_t id_t;
 	typedef std::vector<id_t> id_vector;
 
+	typedef std::int_least32_t num_t;
+	typedef std::vector<num_t> num_vector;
+
 	struct Id
 	{
 	private:
